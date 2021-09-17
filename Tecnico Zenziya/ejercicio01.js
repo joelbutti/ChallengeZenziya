@@ -9,6 +9,8 @@ const PrintMultiples = () => {
              console.log("Zenziya");
         }else if(i % 5 === 0){
             console.log("Fintech");
+        }else{
+            console.log(i)
         }
     }
 }

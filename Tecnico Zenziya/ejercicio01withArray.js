@@ -11,7 +11,7 @@ const PopulateArray = () => {
 const PrintMultiples= (array) => {
 
     array.map((x) =>{
-        x % 3 === 0 && x % 5 === 0? console.log("ZenziyFinctech") :
+        x % 3 === 0 && x % 5 === 0? console.log("ZenziyaFinctech") :
             x % 3 === 0? console.log("Zenziya") :
                 x % 5 === 0? console.log("Fintech") : console.log(x);
     })
